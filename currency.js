@@ -1,3 +1,10 @@
+/**
+ * @description:数字转金额
+ * @param {number} value 数字
+ * @param {string} currency 单位，非必传
+ * @param {number} decimals 精度
+ * @return: 金额
+ */
 const digitsRE = /(\d{3})(?=\d)/g
 
 export function currency (value, currency, decimals) {
